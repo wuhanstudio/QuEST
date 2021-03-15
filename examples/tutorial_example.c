@@ -5,10 +5,11 @@
  * @author Tyson Jones
  */
 
+#include <rtthread.h>
 #include <stdio.h>
 #include "QuEST.h"
 
-int main (int narg, char *varg[]) {
+int quest_tutorial (int narg, char *varg[]) {
 
 
 
@@ -120,3 +121,4 @@ int main (int narg, char *varg[]) {
     destroyQuESTEnv(env);
     return 0;
 }
+MSH_CMD_EXPORT(quest_tutorial, quest tutorial example)

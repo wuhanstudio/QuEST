@@ -4,13 +4,14 @@
  * @author Tyson Jones
  */
 
+#include <rtthread.h>
 # include <stdio.h>
 # include <math.h>
 
 # include "QuEST.h" 
 
 
-int main (int narg, char** varg) {
+int quest_bernstein_vazirani_circuit (int narg, char** varg) {
 
 
     /* 	
@@ -73,3 +74,4 @@ int main (int narg, char** varg) {
     destroyQuESTEnv(env);
     return 0;
 }
+MSH_CMD_EXPORT(quest_bernstein_vazirani_circuit, quest bernstein vazirani circuit example)
