@@ -12,6 +12,8 @@ temporarily hiding incorrect coverage statistics
 [![codecov](https://codecov.io/gh/QuEST-Kit/QuEST/branch/develop/graph/badge.svg)](https://codecov.io/gh/QuEST-Kit/QuEST)
 --->
 
+![](docs/Quest_MCU.gif)
+
 ## Introduction
 
 The **Quantum Exact Simulation Toolkit** is a high performance simulator of universal quantum circuits, state-vectors and density matrices. QuEST is written in C, hybridises OpenMP and MPI, and can run on a GPU. Needing only compilation, QuEST is easy to run both on laptops and supercomputers (in both C and C++), where it can take advantage of multicore, GPU-accelerated and networked machines to quickly simulate circuits on many qubits.
